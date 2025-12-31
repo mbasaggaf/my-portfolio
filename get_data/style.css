@@ -1,0 +1,53 @@
+.bg-light {
+    background-color: #f8f9fa!important;
+}
+
+h4{
+    padding-top: 3rem!important;
+    padding-bottom: : 3rem!important;
+}
+
+
+
+.requestForm{
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.mb-4, .my-4 {
+    margin-top: 1.5rem!important;
+}
+
+
+
+
+.dataTables_wrapper{
+  background-color: white;
+  padding: 1.5em;
+  box-shadow: 3px 3px 20px rgba(0,0,0,0.3);
+  border-radius: 3px;
+}
+
+.table{
+  background-color:#bee5eb;
+}
+
+
+
+/* --- إضافة دائرة التحميل --- */
+.loader {
+  border: 6px solid #f3f3f3; /* لون رمادي فاتح */
+  border-top: 6px solid #007bff; /* لون أزرق (نفس لون الزر) */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  display: none; /* مخفية في البداية */
+  margin: 10px auto; /* توسيط */
+}
+
+/* حركة الدوران */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
